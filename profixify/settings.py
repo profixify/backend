@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-PROFIXIFY_APPS = ["customer"]
+PROFIXIFY_APPS = ["customer", "settings", "spare_part"]
 
 PROFIXIFY_LIBS = ["rest_framework", "phonenumber_field"]
 
