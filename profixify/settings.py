@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 PROFIXIFY_APPS = ["customer", "settings", "spare_part", "repair"]
 
-PROFIXIFY_LIBS = ["rest_framework", "phonenumber_field"]
+PROFIXIFY_LIBS = ["rest_framework", "phonenumber_field", "corsheaders"]
 
 INSTALLED_APPS = (
     [
@@ -49,6 +49,7 @@ INSTALLED_APPS = (
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -148,3 +149,10 @@ REST_FRAMEWORK = {
 }
 
 FIXTURE_DIRS = [BASE_DIR / "fixtures"]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+
+CORS_ALLOWS_CREDENTIALS = True
