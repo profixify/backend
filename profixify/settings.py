@@ -12,7 +12,6 @@ else:
     DEBUG = True
     ALLOWED_HOSTS = []
 
-print("ALI", DEBUG, ALLOWED_HOSTS)
 # Application definition
 PROFIXIFY_APPS = ["customer", "settings", "spare_part", "repair"]
 
@@ -135,9 +134,12 @@ REST_FRAMEWORK = {
 
 FIXTURE_DIRS = [BASE_DIR / "fixtures"]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost",
-    "http://127.0.0.1",
-]
+if os.environ.get("IS_PROD"):
+    CORS_ALLOWED_ORIGINS = ["http://localhost", "http://127.0.0.1"]
+else:
+    CORS_ALLOWED_ORIGINS = [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ]
 
 CORS_ALLOWS_CREDENTIALS = True
