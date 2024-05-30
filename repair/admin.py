@@ -13,3 +13,5 @@ class RepairAdmin(admin.ModelAdmin):
         "phone_lock",
         "status",
     )
+    search_fields = ("code",)
+    autocomplete_fields = ["spare_part", "customer"]
