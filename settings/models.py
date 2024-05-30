@@ -2,6 +2,8 @@ from django.db import models
 
 from core.models import BaseModel
 
+CURRENCY_SYMBOL = {"DOLLAR": "$", "EURO": "€", "TURKISH_LIRA": "₺"}
+
 
 class DefaultCurrencyChoices(models.TextChoices):
     DOLLAR = "DOLLAR", "DOLLAR"

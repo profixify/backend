@@ -3,7 +3,7 @@ from typing import Iterable
 from django.db import models
 
 from core.models import BaseModel
-from settings.models import Settings
+from settings.models import CURRENCY_SYMBOL, Settings
 
 
 class SparePart(BaseModel):
@@ -15,7 +15,7 @@ class SparePart(BaseModel):
     @property
     def price_with_currency(self):
         settings = Settings.objects.first()
-        currency = Settings.CURRENCY_CHOICES.get(settings.default_currency) or ""
+        currency = CURRENCY_SYMBOL.get(settings.default_currency, "")
         return f"{self.price} {currency}"
 
     def save(self, *args, **kwargs) -> None:
