@@ -11,7 +11,7 @@ from api.spare_part.views import SparePartViewSet
 api_router = routers.DefaultRouter()
 api_router.register("customers", CustomerViewSet)
 api_router.register("spare-parts", SparePartViewSet)
-api_router.register("repairs", RepairViewSet)
+api_router.register("repairs", RepairViewSet, basename="repair")
 
 urlpatterns = [
     path("", include(api_router.urls)),
