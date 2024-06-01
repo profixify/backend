@@ -14,24 +14,14 @@ class DashboardAPIView(generics.ListAPIView):
 
 class DashboardCountsAPIView(views.APIView):
     def get(self, request):
-        repair_counts = Repair.objects.aggregate(
-            waiting_repair=Count(
+        aggretations = {
+            choice.lower(): Count(
                 Case(
-                    When(status=RepairStatusChoices.WAITING_REPAIR, then=1),
+                    When(statuses__status=choice, then=1),
                     output_field=IntegerField(),
                 )
-            ),
-            repairing=Count(
-                Case(
-                    When(status=RepairStatusChoices.REPAIRING, then=1),
-                    output_field=IntegerField(),
-                )
-            ),
-            repaired=Count(
-                Case(
-                    When(status=RepairStatusChoices.REPAIRED, then=1),
-                    output_field=IntegerField(),
-                )
-            ),
-        )
+            )
+            for choice in dict(RepairStatusChoices.choices)
+        }
+        repair_counts = Repair.objects.aggregate(**aggretations)
         return Response(repair_counts)

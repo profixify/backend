@@ -4,13 +4,20 @@ from rest_framework.serializers import ModelSerializer
 from api.customer.serializers import CustomerSerializer
 from api.spare_part.serializers import SparePartSerializer
 from customer.models import Customer
-from repair.models import Repair
+from repair.models import Repair, RepairStatus
 from spare_part.models import SparePart
 
 
-class RepairListSerializer(ModelSerializer):
+class RepairStatusSerializer(ModelSerializer):
+    class Meta:
+        model = RepairStatus
+        fields = ("uuid", "title", "note", "status", "created_at", "updated_at")
+
+
+class RepairReadSerializer(ModelSerializer):
     customer = CustomerSerializer(read_only=True)
     spare_part = SparePartSerializer(read_only=True)
+    latest_status = serializers.CharField(read_only=True)
 
     class Meta:
         model = Repair
@@ -21,7 +28,7 @@ class RepairListSerializer(ModelSerializer):
             "spare_part",
             "phone_lock",
             "sim_lock",
-            "status",
+            "latest_status",
         )
 
 
@@ -38,12 +45,12 @@ class RepairSerializer(ModelSerializer):
             "sim_lock",
             "phone_lock",
             "spare_part",
-            "status",
         )
 
 
 class CheckRepairStatusSerializer(ModelSerializer):
+    statuses = RepairStatusSerializer(many=True)
+
     class Meta:
         model = Repair
-        fields = ("status", "created_at", "updated_at")
-        extra_kwargs = {"status": {"read_only": True}}
+        fields = ("statuses",)

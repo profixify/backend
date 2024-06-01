@@ -1,3 +1,5 @@
+from typing import Iterable
+
 from django.db import models
 
 from core.models import BaseModel
@@ -18,11 +20,20 @@ class Repair(BaseModel):
     phone_lock = models.CharField(max_length=20, null=True, blank=True)
     sim_lock = models.CharField(max_length=20, null=True, blank=True)
     spare_part = models.ForeignKey(SparePart, on_delete=models.CASCADE)
+
+    def __str__(self) -> str:
+        return self.code
+
+
+class RepairStatus(BaseModel):
     status = models.CharField(
         max_length=20,
         choices=RepairStatusChoices.choices,
         default=RepairStatusChoices.WAITING_REPAIR,
     )
+    title = models.CharField(max_length=100)
+    note = models.TextField(null=True, default="No information")
+    repair = models.ForeignKey(Repair, on_delete=models.CASCADE, related_name="statuses")
 
     def __str__(self) -> str:
-        return self.code
+        return f"{self.title} ({self.status})"

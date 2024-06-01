@@ -4,7 +4,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from api.customer.views import CustomerViewSet
 from api.dashboard.views import DashboardAPIView, DashboardCountsAPIView
-from api.repair.views import RepairViewSet
+from api.repair.views import RepairStatusViewSet, RepairViewSet
 from api.settings.views import SettingsAPIView
 from api.spare_part.views import SparePartViewSet
 
@@ -12,6 +12,11 @@ api_router = routers.DefaultRouter()
 api_router.register("customers", CustomerViewSet)
 api_router.register("spare-parts", SparePartViewSet)
 api_router.register("repairs", RepairViewSet, basename="repair")
+api_router.register(
+    "repairs/(?P<repair_uuid>[^/.]+)/statuses",
+    RepairStatusViewSet,
+    basename="repair-status",
+)
 
 urlpatterns = [
     path("", include(api_router.urls)),

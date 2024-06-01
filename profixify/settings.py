@@ -15,7 +15,14 @@ else:
 # Application definition
 PROFIXIFY_APPS = ["customer", "settings", "spare_part", "repair"]
 
-PROFIXIFY_LIBS = ["rest_framework", "phonenumber_field", "corsheaders"]
+PROFIXIFY_LIBS = [
+    "rest_framework",
+    "phonenumber_field",
+    "corsheaders",
+    "django_filters",
+]
+
+PROFIXIFY_TOOLS = ["django_extensions"]
 
 INSTALLED_APPS = (
     [
@@ -28,6 +35,7 @@ INSTALLED_APPS = (
     ]
     + PROFIXIFY_APPS
     + PROFIXIFY_LIBS
+    + PROFIXIFY_TOOLS
 )
 
 MIDDLEWARE = [
@@ -46,7 +54,7 @@ ROOT_URLCONF = "profixify.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -117,6 +125,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 REST_FRAMEWORK = {
     "DEFAULT_RENDERER_CLASSES": (
+        # "rest_framework.renderers.AdminRenderer",
         "djangorestframework_camel_case.render.CamelCaseJSONRenderer",
         "djangorestframework_camel_case.render.CamelCaseBrowsableAPIRenderer",
     ),
@@ -130,6 +139,11 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.SessionAuthentication",
     ),
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
+    "DEFAULT_FILTER_BACKENDS": [
+        "django_filters.rest_framework.DjangoFilterBackend",
+        "rest_framework.filters.SearchFilter",
+        "rest_framework.filters.OrderingFilter",
+    ],
 }
 
 FIXTURE_DIRS = [BASE_DIR / "fixtures"]
@@ -140,6 +154,8 @@ else:
     CORS_ALLOWED_ORIGINS = [
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "http://127.0.0.1:3000",
+        "http://localhost:3000",
     ]
 
 CORS_ALLOWS_CREDENTIALS = True
