@@ -16,11 +16,11 @@ class CustomerSerializer(serializers.ModelSerializer):
             "identity_number",
             "phone_number",
         )
-        extra_kwargs = {"name": {"write_only": True}, "surname": {"write_only": True}}
 
 
 class CustomerRepairSerializer(serializers.ModelSerializer):
     spare_part = SparePartSerializer(read_only=True)
+    latest_status = serializers.CharField()
 
     class Meta:
         model = Repair
@@ -29,5 +29,5 @@ class CustomerRepairSerializer(serializers.ModelSerializer):
             "sim_lock",
             "phone_lock",
             "spare_part",
-            "status",
+            "latest_status",
         )
