@@ -15,6 +15,5 @@ class SparePartSerializer(serializers.ModelSerializer):
             "left_amount",
         )
         extra_kwargs = {
-            "price": {"write_only": True},
             "left_amount": {"read_only": True},
         }
