@@ -1,5 +1,4 @@
-from django.db.models import Case, Count, IntegerField, Sum, Value, When
-from django.db.models.functions import Coalesce
+from django.db.models import Case, Count, IntegerField, When
 from rest_framework import generics, views
 from rest_framework.response import Response
 

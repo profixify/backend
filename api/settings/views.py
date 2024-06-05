@@ -2,7 +2,7 @@ from rest_framework import status, views
 from rest_framework.response import Response
 
 from api.settings.serializers import SettingsSerializer
-from settings.models import DefaultCurrencyChoices, Settings
+from settings.models import Settings
 
 
 class SettingsAPIView(views.APIView):
