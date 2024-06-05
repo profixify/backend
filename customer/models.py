@@ -5,14 +5,14 @@ from core.models import BaseModel
 
 
 class Customer(BaseModel):
-    name = models.CharField(max_length=100, null=False)
-    surname = models.CharField(max_length=100, null=False)
+    first_name = models.CharField(max_length=100, null=False)
+    last_name = models.CharField(max_length=100, null=False)
     identity_number = models.CharField(max_length=11, null=False)
     phone_number = PhoneNumberField()
 
     @property
     def full_name(self):
-        return f"{self.name} {self.surname}"
+        return f"{self.first_name} {self.last_name}"
 
     def __str__(self) -> str:
         return self.full_name

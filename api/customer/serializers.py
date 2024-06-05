@@ -10,8 +10,8 @@ class CustomerSerializer(serializers.ModelSerializer):
         model = Customer
         fields = (
             "uuid",
-            "name",
-            "surname",
+            "first_name",
+            "last_name",
             "full_name",
             "identity_number",
             "phone_number",
