@@ -1,5 +1,3 @@
-from typing import Iterable
-
 from django.db import models
 
 from core.models import BaseModel
@@ -11,6 +9,7 @@ class SparePart(BaseModel):
     price = models.FloatField()
     amount = models.PositiveSmallIntegerField()
     left_amount = models.PositiveSmallIntegerField()
+    temp_amount = models.PositiveSmallIntegerField(default=0)
 
     @property
     def price_with_currency(self):
