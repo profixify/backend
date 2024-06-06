@@ -7,3 +7,4 @@ from spare_part.models import SparePart
 class SparePartAdmin(admin.ModelAdmin):
     list_display = ("name", "price_with_currency")
     search_fields = ("name", "price")
+    readonly_fields = ("left_amount", "temp_amount")
