@@ -13,7 +13,6 @@ class CustomerSerializer(serializers.ModelSerializer):
             "first_name",
             "last_name",
             "full_name",
-            "identity_number",
             "phone_number",
         )
 

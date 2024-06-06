@@ -7,9 +7,8 @@ from customer.models import Customer
 
 @admin.register(Customer)
 class CustomerAdmin(admin.ModelAdmin):
-    list_display = ("full_name", "identity_number", "phone_number")
+    list_display = ("full_name", "phone_number")
     search_fields = (
-        "identity_number",
         "first_name",
         "last_name",
         "entire_name",

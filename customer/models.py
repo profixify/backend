@@ -7,7 +7,6 @@ from core.models import BaseModel
 class Customer(BaseModel):
     first_name = models.CharField(max_length=100, null=False)
     last_name = models.CharField(max_length=100, null=False)
-    identity_number = models.CharField(max_length=11, null=False)
     phone_number = PhoneNumberField()
 
     @property
