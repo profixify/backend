@@ -24,13 +24,13 @@ class DashboardSparePartSerializer(serializers.ModelSerializer):
 class DashboardRepairListSerializer(serializers.ModelSerializer):
     customer = DashboardCustomerSerializer(read_only=True)
     spare_part = DashboardSparePartSerializer(read_only=True)
-    status = serializers.SerializerMethodField()
+    latest_status = serializers.SerializerMethodField()
 
     class Meta:
         model = Repair
-        fields = ("uuid", "code", "customer", "spare_part", "status")
+        fields = ("uuid", "code", "customer", "spare_part", "latest_status")
 
-    def get_status(self, obj):
+    def get_latest_status(self, obj):
         latest_status = obj.statuses.order_by("-created_at").first()
         if latest_status:
             return RepairStatusSerializer(latest_status).data["status"]

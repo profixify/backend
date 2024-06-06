@@ -18,5 +18,5 @@ class CustomerAdmin(admin.ModelAdmin):
 
     def get_queryset(self, request):
         qs = super().get_queryset(request)
-        qs = qs.annotate(entire_name=Concat("name", Value(" "), "last_name"))
+        qs = qs.annotate(entire_name=Concat("first_name", Value(" "), "last_name"))
         return qs
