@@ -1,0 +1,6 @@
+- model: settings.settings
+  pk: a38f4d7a-f817-4a5d-abf2-2a433295b454
+  fields:
+    created_at: 2024-06-06 18:48:31.743318+00:00
+    updated_at: 2024-06-06 18:48:31.743339+00:00
+    default_currency: DOLLAR
