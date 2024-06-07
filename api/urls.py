@@ -6,7 +6,7 @@ from api.customer.views import CustomerViewSet
 from api.dashboard.views import DashboardAPIView, DashboardCountsAPIView
 from api.repair.views import RepairStatusViewSet, RepairViewSet
 from api.settings.views import SettingsAPIView
-from api.spare_part.views import SparePartViewSet
+from api.spare_part.views import SparePartBrandViewSet, SparePartModelViewSet, SparePartViewSet
 
 api_router = routers.DefaultRouter()
 api_router.register("customers", CustomerViewSet)
@@ -16,6 +16,12 @@ api_router.register(
     "repairs/(?P<repair_uuid>[^/.]+)/statuses",
     RepairStatusViewSet,
     basename="repair-status",
+)
+api_router.register("brands", SparePartBrandViewSet, basename="brand")
+api_router.register(
+    "brands/(?P<brand_uuid>[^/.]+)/models",
+    SparePartModelViewSet,
+    basename="brand-model",
 )
 
 urlpatterns = [
