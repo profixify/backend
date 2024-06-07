@@ -1,840 +1,238 @@
 - model: spare_part.model
-  pk: 006fb5e9-cf2a-482c-9656-87d8fd85daf6
+  pk: 093d291f-becf-462a-999b-d4e3dea5ddd7
   fields:
-    created_at: 2024-06-06 23:24:54.654147+00:00
-    updated_at: 2024-06-06 23:24:54.654152+00:00
-    name: Watch Edition 38mm (1st gen)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 0119ebeb-b6e8-4c91-8042-b70e79c495d9
-  fields:
-    created_at: 2024-06-06 23:24:54.664697+00:00
-    updated_at: 2024-06-06 23:24:54.664701+00:00
-    name: iPhone
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 0214ba2f-5429-480d-b4e8-61c6a755269f
-  fields:
-    created_at: 2024-06-06 23:24:54.632455+00:00
-    updated_at: 2024-06-06 23:24:54.632462+00:00
-    name: iPhone 12
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 07189bb7-009c-4181-bdf2-67909c4a4f19
-  fields:
-    created_at: 2024-06-06 23:24:54.658799+00:00
-    updated_at: 2024-06-06 23:24:54.658804+00:00
-    name: iPad mini Wi-Fi
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 07d59c2d-3249-4d12-8f5f-275709488e31
-  fields:
-    created_at: 2024-06-06 23:24:54.630086+00:00
-    updated_at: 2024-06-06 23:24:54.630093+00:00
-    name: Watch Series 7 Aluminum
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 0b53cffd-222c-4938-af01-48535c5216e6
-  fields:
-    created_at: 2024-06-06 23:24:54.639564+00:00
-    updated_at: 2024-06-06 23:24:54.639572+00:00
-    name: Watch Series 5
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 0dd69f00-a336-40c4-9084-01ec24729e81
-  fields:
-    created_at: 2024-06-06 23:24:54.627909+00:00
-    updated_at: 2024-06-06 23:24:54.627918+00:00
-    name: iPad mini (2021)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 0f71d64a-a99b-4011-986e-28929a4db779
-  fields:
-    created_at: 2024-06-06 23:24:54.646787+00:00
-    updated_at: 2024-06-06 23:24:54.646793+00:00
-    name: iPad Pro 12.9 (2017)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 10f1f422-6bef-4127-a088-edddf784be39
-  fields:
-    created_at: 2024-06-06 23:24:54.646046+00:00
-    updated_at: 2024-06-06 23:24:54.646052+00:00
-    name: Watch Series 3
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 127ca067-ac9c-4e28-baef-0439d0c9cf23
-  fields:
-    created_at: 2024-06-06 23:24:54.653099+00:00
-    updated_at: 2024-06-06 23:24:54.653104+00:00
-    name: iPad Pro 12.9 (2015)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 1605a254-237a-4836-89c3-b9a081c5ea32
-  fields:
-    created_at: 2024-06-06 23:24:54.623195+00:00
-    updated_at: 2024-06-06 23:24:54.623202+00:00
-    name: Watch Series 8 Aluminum
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 1641e513-f517-4033-83d4-cf68c05278f1
-  fields:
-    created_at: 2024-06-06 23:24:54.633419+00:00
-    updated_at: 2024-06-06 23:24:54.633426+00:00
-    name: iPad Air (2020)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 1664b9a4-d37b-4fc7-a5fa-d339496bc1b3
-  fields:
-    created_at: 2024-06-06 23:24:54.615895+00:00
-    updated_at: 2024-06-06 23:24:54.615905+00:00
-    name: Watch Ultra 2
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 18c670aa-0380-4f77-9623-a47bb9585dac
-  fields:
-    created_at: 2024-06-06 23:24:54.647199+00:00
-    updated_at: 2024-06-06 23:24:54.647205+00:00
-    name: iPad Pro 10.5 (2017)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 1969bce2-2be2-47e0-af78-df261726843c
-  fields:
-    created_at: 2024-06-06 23:24:54.657973+00:00
-    updated_at: 2024-06-06 23:24:54.657979+00:00
-    name: iPhone 5s
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 1b3e40a4-ec26-497d-b2d1-6ae696bf183e
-  fields:
-    created_at: 2024-06-06 23:24:54.652740+00:00
-    updated_at: 2024-06-06 23:24:54.652744+00:00
-    name: iPhone 6s
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 21ec1ab3-406f-4757-8d07-365ad7b3b345
-  fields:
-    created_at: 2024-06-06 23:24:54.609443+00:00
-    updated_at: 2024-06-06 23:24:54.609474+00:00
-    name: iPad Pro 11 (2024)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 227a3a21-ee7b-4360-99f8-54b95e1f7705
-  fields:
-    created_at: 2024-06-06 23:24:54.650146+00:00
-    updated_at: 2024-06-06 23:24:54.650152+00:00
-    name: Watch Series 2 Aluminum 38mm
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 22d22955-2b58-405f-b2cd-e1eca7eb92f7
-  fields:
-    created_at: 2024-06-06 23:24:54.614490+00:00
-    updated_at: 2024-06-06 23:24:54.614503+00:00
-    name: iPhone 15 Plus
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 23383458-928a-4be5-a03d-64713c624fa5
-  fields:
-    created_at: 2024-06-06 23:24:54.626333+00:00
-    updated_at: 2024-06-06 23:24:54.626340+00:00
-    name: iPhone 13
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 23b2a4a1-7b1f-4194-b9ab-2c2d3c234f03
-  fields:
-    created_at: 2024-06-06 23:24:54.610576+00:00
-    updated_at: 2024-06-06 23:24:54.610594+00:00
-    name: iPad Air 13 (2024)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 24582795-c13d-4495-b289-9aa8c0b841f7
-  fields:
-    created_at: 2024-06-06 23:24:54.651642+00:00
-    updated_at: 2024-06-06 23:24:54.651647+00:00
-    name: iPad Pro 9.7 (2016)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 24777ac0-92d4-47fe-93c3-5652b3b3bfa6
-  fields:
-    created_at: 2024-06-06 23:24:54.644874+00:00
-    updated_at: 2024-06-06 23:24:54.644880+00:00
-    name: iPhone 8 Plus
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 2923f771-527c-4a83-ba1e-08107c86ad9f
-  fields:
-    created_at: 2024-06-06 23:24:54.628481+00:00
-    updated_at: 2024-06-06 23:24:54.628489+00:00
-    name: iPad 10.2 (2021)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 29d9caed-5c4a-42ba-9ecd-12efdedaa28e
-  fields:
-    created_at: 2024-06-06 23:24:54.647943+00:00
-    updated_at: 2024-06-06 23:24:54.647949+00:00
-    name: Watch Edition Series 2 42mm
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 2b91b228-977c-4ff4-b8bd-9b424c3db7d9
-  fields:
-    created_at: 2024-06-06 23:24:54.649780+00:00
-    updated_at: 2024-06-06 23:24:54.649784+00:00
-    name: Watch Series 1 Aluminum 42mm
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 2f389f2b-4870-470d-88f7-4e0566a39ef3
-  fields:
-    created_at: 2024-06-06 23:24:54.642926+00:00
-    updated_at: 2024-06-06 23:24:54.642932+00:00
-    name: iPhone XR
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 36aaa5a5-cd87-4d61-8f66-49c16d1ce3cb
-  fields:
-    created_at: 2024-06-06 23:24:54.636662+00:00
-    updated_at: 2024-06-06 23:24:54.636669+00:00
-    name: iPad Pro 12.9 (2020)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 3bfcae63-2bb7-4a2d-b379-74ba5ca391aa
-  fields:
-    created_at: 2024-06-06 23:24:54.641252+00:00
-    updated_at: 2024-06-06 23:24:54.641258+00:00
-    name: iPad Pro 12.9 (2018)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 3c850196-c825-42ca-a24a-04413211e2f1
-  fields:
-    created_at: 2024-06-06 23:24:54.661297+00:00
-    updated_at: 2024-06-06 23:24:54.661302+00:00
-    name: iPhone 4s
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 3e9154d3-53eb-42c5-8b39-a2a1dec5f200
-  fields:
-    created_at: 2024-06-06 23:24:54.649429+00:00
-    updated_at: 2024-06-06 23:24:54.649435+00:00
-    name: Watch Series 2 Aluminum 42mm
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 3fd1916f-37f4-48e7-a1c0-64a64ce1a17d
-  fields:
-    created_at: 2024-06-06 23:24:54.641708+00:00
-    updated_at: 2024-06-06 23:24:54.641714+00:00
-    name: iPad Pro 11 (2018)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 42bb0b58-6e18-441b-9d2e-6759a93f6d44
-  fields:
-    created_at: 2024-06-06 23:24:54.634356+00:00
-    updated_at: 2024-06-06 23:24:54.634362+00:00
-    name: Watch SE
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 447c6763-c6dc-46a0-b2e3-2e1d8c09d7b4
-  fields:
-    created_at: 2024-06-06 23:24:54.663667+00:00
-    updated_at: 2024-06-06 23:24:54.663672+00:00
-    name: iPad Wi-Fi
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 4606593f-fcda-4f9a-9bae-6de2ade781ae
-  fields:
-    created_at: 2024-06-06 23:24:54.660950+00:00
-    updated_at: 2024-06-06 23:24:54.660954+00:00
-    name: iPad 3 Wi-Fi
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 46b8df02-ab03-4234-8e07-e61f068be366
-  fields:
-    created_at: 2024-06-06 23:24:54.640839+00:00
-    updated_at: 2024-06-06 23:24:54.640845+00:00
-    name: iPad mini (2019)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 5343748b-ad1e-4d34-bd57-1aac72ddbc9c
-  fields:
-    created_at: 2024-06-06 23:24:54.637112+00:00
-    updated_at: 2024-06-06 23:24:54.637119+00:00
-    name: iPad Pro 11 (2020)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 56dc9c5e-8cf0-49e3-9377-0794ecc0ab20
-  fields:
-    created_at: 2024-06-06 23:24:54.652005+00:00
-    updated_at: 2024-06-06 23:24:54.652011+00:00
-    name: iPhone SE
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 57487a3b-a451-405b-b274-cb09b7b28a82
-  fields:
-    created_at: 2024-06-06 23:24:54.664014+00:00
-    updated_at: 2024-06-06 23:24:54.664019+00:00
-    name: iPhone 3GS
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 5a4edb7a-cd8d-4ad5-b5d3-59f8e9e3a039
-  fields:
-    created_at: 2024-06-06 23:24:54.640000+00:00
-    updated_at: 2024-06-06 23:24:54.640006+00:00
-    name: Watch Series 5 Aluminum
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 5adb20b4-2d7c-4177-bb44-cae02e8c7beb
-  fields:
-    created_at: 2024-06-06 23:24:54.617796+00:00
-    updated_at: 2024-06-06 23:24:54.617806+00:00
-    name: iPad Pro 12.9 (2022)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 5c1470da-b7fc-4ca8-a90e-6f53173f28c2
-  fields:
-    created_at: 2024-06-06 23:24:54.635254+00:00
-    updated_at: 2024-06-06 23:24:54.635261+00:00
-    name: Watch Series 6
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 5e53b264-3352-4cc3-af27-18f754e84b8d
-  fields:
-    created_at: 2024-06-06 23:24:54.621465+00:00
-    updated_at: 2024-06-06 23:24:54.621474+00:00
-    name: iPhone 14
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 618bedad-adb8-450f-95df-f3c1067f354d
-  fields:
-    created_at: 2024-06-06 23:24:54.635727+00:00
-    updated_at: 2024-06-06 23:24:54.635734+00:00
-    name: Watch Edition Series 6
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 632c72ef-846d-4675-858e-90eff12a1dc2
-  fields:
-    created_at: 2024-06-06 23:24:54.654498+00:00
-    updated_at: 2024-06-06 23:24:54.654502+00:00
-    name: Watch 42mm (1st gen)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 6747c8b5-6c30-40e8-abf7-650320c9f0be
-  fields:
-    created_at: 2024-06-06 23:24:54.642120+00:00
-    updated_at: 2024-06-06 23:24:54.642126+00:00
-    name: iPhone XS Max
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 6959fe7c-fa10-4194-99b2-a4e4b538b8cf
-  fields:
-    created_at: 2024-06-06 23:24:54.663330+00:00
-    updated_at: 2024-06-06 23:24:54.663334+00:00
-    name: iPad Wi-Fi + 3G
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 6dd3d2db-3f3c-4c4f-94b6-99dbff05cd70
-  fields:
-    created_at: 2024-06-06 23:24:54.662651+00:00
-    updated_at: 2024-06-06 23:24:54.662656+00:00
-    name: iPhone 4
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 6e022341-cbb4-47e9-92bb-bff8fad23c99
-  fields:
-    created_at: 2024-06-06 23:24:54.613440+00:00
-    updated_at: 2024-06-06 23:24:54.613465+00:00
-    name: iPhone 15 Pro
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 6ea85298-8175-43af-a9c7-0e0aa2b7a932
-  fields:
-    created_at: 2024-06-06 23:24:54.655565+00:00
-    updated_at: 2024-06-06 23:24:54.655571+00:00
-    name: Watch Sport 38mm (1st gen)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 733ddf11-72d4-416b-823d-ed4aab0a2ff6
-  fields:
-    created_at: 2024-06-06 23:24:54.618421+00:00
-    updated_at: 2024-06-06 23:24:54.618430+00:00
-    name: iPad Pro 11 (2022)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 76afe8ad-15d2-452d-8d47-1deca6939a17
-  fields:
-    created_at: 2024-06-06 23:24:54.649065+00:00
-    updated_at: 2024-06-06 23:24:54.649070+00:00
-    name: Watch Series 2 38mm
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 76c36a24-9365-4bd7-9d09-92c14fb3dc79
-  fields:
-    created_at: 2024-06-06 23:24:54.638333+00:00
-    updated_at: 2024-06-06 23:24:54.638340+00:00
-    name: iPhone 11 ProiPhone 11
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 7a1e067a-b63d-42b0-9bc3-97dce7fd23ce
-  fields:
-    created_at: 2024-06-06 23:24:54.629014+00:00
-    updated_at: 2024-06-06 23:24:54.629022+00:00
-    name: Watch Edition Series 7
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 7d00dc36-f5ae-4381-80cb-af6c34adc435
-  fields:
-    created_at: 2024-06-06 23:24:54.625756+00:00
-    updated_at: 2024-06-06 23:24:54.625765+00:00
-    name: iPhone 13 Pro
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 82b9ee0e-88cf-44c4-b900-09effafcb4fc
-  fields:
-    created_at: 2024-06-06 23:24:54.659891+00:00
-    updated_at: 2024-06-06 23:24:54.659896+00:00
-    name: iPad 4 Wi-Fi + Cellular
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 82f633b1-97be-42a6-838f-d55e3b4405ff
-  fields:
-    created_at: 2024-06-06 23:24:54.620825+00:00
-    updated_at: 2024-06-06 23:24:54.620834+00:00
-    name: iPhone 14 Plus
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 837bed67-5efe-4225-950a-16ff2c3301b7
-  fields:
-    created_at: 2024-06-06 23:24:54.657098+00:00
-    updated_at: 2024-06-06 23:24:54.657109+00:00
-    name: iPhone 6iPad Air
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 84ab19ce-0843-4c9e-8fbf-3072f128273f
-  fields:
-    created_at: 2024-06-06 23:24:54.631514+00:00
-    updated_at: 2024-06-06 23:24:54.631522+00:00
-    name: iPhone 12 Pro Max
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 86605164-e675-4fba-bd7e-9f057cf3294b
-  fields:
-    created_at: 2024-06-06 23:24:54.633884+00:00
-    updated_at: 2024-06-06 23:24:54.633891+00:00
-    name: iPad 10.2 (2020)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 89d7e8b1-d866-4cee-9618-a4e8a4713ee5
-  fields:
-    created_at: 2024-06-06 23:24:54.663001+00:00
-    updated_at: 2024-06-06 23:24:54.663005+00:00
-    name: iPhone 4 CDMA
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 8a0c1e51-2493-4cbe-a017-cbcdcfe0a1a4
-  fields:
-    created_at: 2024-06-06 23:24:54.662317+00:00
-    updated_at: 2024-06-06 23:24:54.662322+00:00
-    name: iPad 2 CDMA
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 8eb82b90-084b-4eff-b07d-180d49ba891e
-  fields:
-    created_at: 2024-06-06 23:24:54.637574+00:00
-    updated_at: 2024-06-06 23:24:54.637580+00:00
-    name: iPhone 11 Pro Max
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 8fab62c3-5a8c-49ac-96c7-71eaeb59f5e2
-  fields:
-    created_at: 2024-06-06 23:24:54.643734+00:00
-    updated_at: 2024-06-06 23:24:54.643740+00:00
-    name: Watch Series 4 Aluminum
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 929ec4be-42ee-4a08-9ee9-059c036eb9b0
-  fields:
-    created_at: 2024-06-06 23:24:54.644122+00:00
-    updated_at: 2024-06-06 23:24:54.644128+00:00
-    name: iPad 9.7 (2018)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 92f8ce1c-4516-429d-b4ed-e4fa787ff542
-  fields:
-    created_at: 2024-06-06 23:24:54.661634+00:00
-    updated_at: 2024-06-06 23:24:54.661639+00:00
-    name: iPad 2 Wi-Fi + 3G
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 9467b6a4-88bf-479d-9cba-02252e3b8208
-  fields:
-    created_at: 2024-06-06 23:24:54.619032+00:00
-    updated_at: 2024-06-06 23:24:54.619043+00:00
-    name: iPad (2022)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 960544ae-e2d1-4815-86e5-cc2bffc0661b
-  fields:
-    created_at: 2024-06-06 23:24:54.634803+00:00
-    updated_at: 2024-06-06 23:24:54.634813+00:00
-    name: Watch Series 6 Aluminum
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 96251b0e-a9dd-44e4-8b2b-25fff7d0f3a6
-  fields:
-    created_at: 2024-06-06 23:24:54.616534+00:00
-    updated_at: 2024-06-06 23:24:54.616544+00:00
-    name: Watch Series 9
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 968c2d6d-e901-4f31-8d8f-62a591e134e9
-  fields:
-    created_at: 2024-06-06 23:24:54.631036+00:00
-    updated_at: 2024-06-06 23:24:54.631043+00:00
-    name: iPad Pro 11 (2021)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 970c4545-7f2e-4dbc-82a0-4b3577441429
-  fields:
-    created_at: 2024-06-06 23:24:54.657556+00:00
-    updated_at: 2024-06-06 23:24:54.657564+00:00
-    name: iPad mini 2
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 986d0c95-22ab-4e84-9d5f-e184ae47d490
-  fields:
-    created_at: 2024-06-06 23:24:54.664355+00:00
-    updated_at: 2024-06-06 23:24:54.664360+00:00
-    name: iPhone 3G
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 98859888-caeb-464e-9e1c-5250dfecbc78
-  fields:
-    created_at: 2024-06-06 23:24:54.644498+00:00
-    updated_at: 2024-06-06 23:24:54.644504+00:00
-    name: iPhone X
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 9a594db1-1e26-4838-baa1-f85186ddea62
-  fields:
-    created_at: 2024-06-06 23:24:54.653800+00:00
-    updated_at: 2024-06-06 23:24:54.653805+00:00
-    name: Watch Edition 42mm (1st gen)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 9cf34959-96ac-4437-9df8-83f0418dfcad
-  fields:
-    created_at: 2024-06-06 23:24:54.623708+00:00
-    updated_at: 2024-06-06 23:24:54.623716+00:00
-    name: Watch SE (2022)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 9dad9f5c-96e7-40ac-a062-2b902fcdc975
-  fields:
-    created_at: 2024-06-06 23:24:54.638728+00:00
-    updated_at: 2024-06-06 23:24:54.638735+00:00
-    name: iPad 10.2 (2019)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 9e271dee-7999-490a-a585-c7532f4ce96f
-  fields:
-    created_at: 2024-06-06 23:24:54.648708+00:00
-    updated_at: 2024-06-06 23:24:54.648714+00:00
-    name: Watch Series 2 42mm
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: 9ffb643f-17cc-4f5f-a162-c047cbd834ef
-  fields:
-    created_at: 2024-06-06 23:24:54.626845+00:00
-    updated_at: 2024-06-06 23:24:54.626853+00:00
-    name: iPhone 13 mini
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: a1065a1d-41b9-477c-bcfe-09d3f2f96e81
-  fields:
-    created_at: 2024-06-06 23:24:54.636201+00:00
-    updated_at: 2024-06-06 23:24:54.636208+00:00
-    name: iPhone SE (2020)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: a3397fda-698d-4134-b7f0-57fc5e46279c
-  fields:
-    created_at: 2024-06-06 23:24:54.631979+00:00
-    updated_at: 2024-06-06 23:24:54.631987+00:00
+    created_at: 2024-06-07 16:32:56.759196+00:00
+    updated_at: 2024-06-07 16:32:56.759205+00:00
     name: iPhone 12 Pro
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: a79d02ba-58bb-49bf-a32f-5f35e17a1fce
+  pk: 19f4ce56-ac18-4724-8faa-a20d6657358c
   fields:
-    created_at: 2024-06-06 23:24:54.624223+00:00
-    updated_at: 2024-06-06 23:24:54.624230+00:00
-    name: iPhone SE (2022)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    created_at: 2024-06-07 16:32:56.766296+00:00
+    updated_at: 2024-06-07 16:32:56.766303+00:00
+    name: iPhone 15 Pro
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: aa43f49d-0ac0-4d3a-bd1f-c2d7975cb094
+  pk: 1d31b561-d5ab-4c16-830f-5a1eeafade52
   fields:
-    created_at: 2024-06-06 23:24:54.645645+00:00
-    updated_at: 2024-06-06 23:24:54.645652+00:00
-    name: Watch Edition Series 3
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    created_at: 2024-06-07 16:32:56.761287+00:00
+    updated_at: 2024-06-07 16:32:56.761295+00:00
+    name: iPhone 13 Pro
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: aa555089-af44-4c0d-8216-00ce27aadb06
+  pk: 2dbef43d-21aa-4e8f-afa1-a9ba06e44247
   fields:
-    created_at: 2024-06-06 23:24:54.660595+00:00
-    updated_at: 2024-06-06 23:24:54.660599+00:00
-    name: iPad 3 Wi-Fi + Cellular
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    created_at: 2024-06-07 16:32:56.754692+00:00
+    updated_at: 2024-06-07 16:32:56.754702+00:00
+    name: iPhone XS Max
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: ab26e47c-01ac-48f6-8202-d994b605a553
+  pk: 3d6c31b9-8fda-43c4-bd1b-99a9f9e81f5c
   fields:
-    created_at: 2024-06-06 23:24:54.639150+00:00
-    updated_at: 2024-06-06 23:24:54.639156+00:00
-    name: Watch Edition Series 5
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    created_at: 2024-06-07 16:32:56.759718+00:00
+    updated_at: 2024-06-07 16:32:56.759726+00:00
+    name: iPhone 12 Pro Max
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: abce02c5-b51d-47f5-80ac-5cbe838492c5
+  pk: 5358474d-6b18-42f4-ace6-63c21ca13df9
   fields:
-    created_at: 2024-06-06 23:24:54.619652+00:00
-    updated_at: 2024-06-06 23:24:54.619661+00:00
+    created_at: 2024-06-07 16:32:56.757592+00:00
+    updated_at: 2024-06-07 16:32:56.757601+00:00
+    name: iPhone 11 Pro Max
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: 5a06d162-1959-4843-9537-822de86cc0f5
+  fields:
+    created_at: 2024-06-07 16:32:56.763922+00:00
+    updated_at: 2024-06-07 16:32:56.763930+00:00
     name: iPhone 14 Pro Max
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: ae20554d-6ce1-4178-826d-39bb8111e4f2
+  pk: 5ea006ae-c27a-4250-9341-9dcb1bd47dbc
   fields:
-    created_at: 2024-06-06 23:24:54.643328+00:00
-    updated_at: 2024-06-06 23:24:54.643334+00:00
-    name: Watch Series 4
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    created_at: 2024-06-07 16:32:56.752040+00:00
+    updated_at: 2024-06-07 16:32:56.752050+00:00
+    name: 'iPhone 8 '
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: af70f1b1-acbc-46f5-bd04-cf5a0ff01d8f
+  pk: 5f12df91-ebe3-4e26-b6da-9e3434ca1fd5
   fields:
-    created_at: 2024-06-06 23:24:54.630580+00:00
-    updated_at: 2024-06-06 23:24:54.630586+00:00
-    name: iPad Pro 12.9 (2021)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: b1a1b240-f143-4255-87f6-e1b99e2ffba2
-  fields:
-    created_at: 2024-06-06 23:24:54.640427+00:00
-    updated_at: 2024-06-06 23:24:54.640435+00:00
-    name: iPad Air (2019)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: b55b121d-8a08-49f5-bfcb-ee17fb62c761
-  fields:
-    created_at: 2024-06-06 23:24:54.659154+00:00
-    updated_at: 2024-06-06 23:24:54.659159+00:00
-    name: iPad mini Wi-Fi + Cellular
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: b5d346a6-9903-4c43-acca-9b6fc3d16c0c
-  fields:
-    created_at: 2024-06-06 23:24:54.655922+00:00
-    updated_at: 2024-06-06 23:24:54.655927+00:00
-    name: iPad Air 2
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: b5f89172-8396-443a-a192-b5b511602ff0
-  fields:
-    created_at: 2024-06-06 23:24:54.629561+00:00
-    updated_at: 2024-06-06 23:24:54.629569+00:00
-    name: Watch Series 7
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: b79b3742-6889-4a27-91d1-93f51158598e
-  fields:
-    created_at: 2024-06-06 23:24:54.656653+00:00
-    updated_at: 2024-06-06 23:24:54.656657+00:00
-    name: iPhone 6 Plus
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: b88ce958-f691-4248-9171-d2a40bd376c7
-  fields:
-    created_at: 2024-06-06 23:24:54.625251+00:00
-    updated_at: 2024-06-06 23:24:54.625259+00:00
-    name: iPhone 13 Pro Max
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: be0668b6-e2f5-42ef-9d6f-1529637a9657
-  fields:
-    created_at: 2024-06-06 23:24:54.659501+00:00
-    updated_at: 2024-06-06 23:24:54.659506+00:00
-    name: iPad 4 Wi-Fi
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: c12faf5d-51c0-4d92-9490-00c3e6e8f693
-  fields:
-    created_at: 2024-06-06 23:24:54.611516+00:00
-    updated_at: 2024-06-06 23:24:54.611531+00:00
-    name: iPad Air 11 (2024)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: c463864c-c261-4628-8472-e08b6b64598e
-  fields:
-    created_at: 2024-06-06 23:24:54.651274+00:00
-    updated_at: 2024-06-06 23:24:54.651280+00:00
-    name: iPhone 7
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: c49ad553-7ab6-4c78-8390-cb7150492d92
-  fields:
-    created_at: 2024-06-06 23:24:54.654852+00:00
-    updated_at: 2024-06-06 23:24:54.654856+00:00
-    name: Watch 38mm (1st gen)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: c5577453-de15-4790-a6ae-af6b90a7ada8
-  fields:
-    created_at: 2024-06-06 23:24:54.655213+00:00
-    updated_at: 2024-06-06 23:24:54.655218+00:00
-    name: Watch Sport 42mm (1st gen)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: c9da85fc-ce24-45d5-8360-a9e58725bc8a
-  fields:
-    created_at: 2024-06-06 23:24:54.624742+00:00
-    updated_at: 2024-06-06 23:24:54.624750+00:00
-    name: iPad Air (2022)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: cb05f703-7058-481c-98aa-0366ad8b0165
-  fields:
-    created_at: 2024-06-06 23:24:54.622641+00:00
-    updated_at: 2024-06-06 23:24:54.622649+00:00
-    name: Watch Series 8
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: ce2d0e47-7130-42fe-8cdc-d10752f67932
-  fields:
-    created_at: 2024-06-06 23:24:54.642515+00:00
-    updated_at: 2024-06-06 23:24:54.642521+00:00
-    name: iPhone XS
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: cf25fdcb-eeb1-483d-ae36-b8205d10989b
-  fields:
-    created_at: 2024-06-06 23:24:54.653442+00:00
-    updated_at: 2024-06-06 23:24:54.653447+00:00
-    name: iPad mini 4 (2015)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: d28ad5d6-ad78-4c07-aeef-5b3e0b22b0b8
-  fields:
-    created_at: 2024-06-06 23:24:54.656284+00:00
-    updated_at: 2024-06-06 23:24:54.656289+00:00
-    name: iPad mini 3
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: d339d0c5-bbc7-4110-9e5f-7eff9f963f15
-  fields:
-    created_at: 2024-06-06 23:24:54.632933+00:00
-    updated_at: 2024-06-06 23:24:54.632940+00:00
-    name: iPhone 12 mini
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: d3544203-101b-45a2-89ce-f869d91ef9b4
-  fields:
-    created_at: 2024-06-06 23:24:54.652372+00:00
-    updated_at: 2024-06-06 23:24:54.652377+00:00
-    name: iPhone 6s Plus
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: d6735014-dd8b-45de-a0f9-1b7708e046cf
-  fields:
-    created_at: 2024-06-06 23:24:54.612423+00:00
-    updated_at: 2024-06-06 23:24:54.612437+00:00
-    name: iPhone 15 Pro Max
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: dc3cb380-b891-421c-9368-795e55390d29
-  fields:
-    created_at: 2024-06-06 23:24:54.650530+00:00
-    updated_at: 2024-06-06 23:24:54.650536+00:00
-    name: Watch Series 1 Aluminum 38mm
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: e879756e-1bf3-4e1f-93f3-5b87ddbc84d4
-  fields:
-    created_at: 2024-06-06 23:24:54.615234+00:00
-    updated_at: 2024-06-06 23:24:54.615245+00:00
-    name: iPhone 15
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: ebcf1682-8cc4-433a-8d2e-4647601b8bc1
-  fields:
-    created_at: 2024-06-06 23:24:54.648342+00:00
-    updated_at: 2024-06-06 23:24:54.648347+00:00
-    name: Watch Edition Series 2 38mm
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: ebded29a-069a-4858-b84a-ae6cb35295ae
-  fields:
-    created_at: 2024-06-06 23:24:54.658408+00:00
-    updated_at: 2024-06-06 23:24:54.658416+00:00
-    name: iPhone 5c
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: ee2b2599-1c95-4861-bc8c-5fb29c9137f0
-  fields:
-    created_at: 2024-06-06 23:24:54.617166+00:00
-    updated_at: 2024-06-06 23:24:54.617179+00:00
-    name: Watch Series 9 Aluminum
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: ee7935b1-9157-4751-ba27-462b3d3c57aa
-  fields:
-    created_at: 2024-06-06 23:24:54.661979+00:00
-    updated_at: 2024-06-06 23:24:54.661983+00:00
-    name: iPad 2 Wi-Fi
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: f027bb38-2f3b-4b48-87be-286177394c21
-  fields:
-    created_at: 2024-06-06 23:24:54.660238+00:00
-    updated_at: 2024-06-06 23:24:54.660242+00:00
-    name: iPhone 5
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
-- model: spare_part.model
-  pk: f0814dca-e0c7-4d74-8078-1b515523151f
-  fields:
-    created_at: 2024-06-06 23:24:54.650895+00:00
-    updated_at: 2024-06-06 23:24:54.650900+00:00
+    created_at: 2024-06-07 16:32:56.750656+00:00
+    updated_at: 2024-06-07 16:32:56.750668+00:00
     name: iPhone 7 Plus
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: f4870351-2806-41a8-a79c-3950dda29db9
+  pk: 6009d0f8-ee93-4049-bf22-f8b73e0d2ce9
   fields:
-    created_at: 2024-06-06 23:24:54.647576+00:00
-    updated_at: 2024-06-06 23:24:54.647581+00:00
-    name: iPad 9.7 (2017)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    created_at: 2024-06-07 16:32:56.755330+00:00
+    updated_at: 2024-06-07 16:32:56.755340+00:00
+    name: iPhone XR
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: f4991472-ddc7-47e0-9c92-3baaab4f0f62
+  pk: 6281c1ba-eeee-4a1c-a961-3cd3e540dcab
   fields:
-    created_at: 2024-06-06 23:24:54.646428+00:00
-    updated_at: 2024-06-06 23:24:54.646433+00:00
-    name: Watch Series 3 Aluminum
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    created_at: 2024-06-07 16:32:56.746732+00:00
+    updated_at: 2024-06-07 16:32:56.746757+00:00
+    name: iPhone 6 Plus
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: fa6b0843-f6ac-414f-a5bc-9c38d933b982
+  pk: 64206c9b-9e53-4e1c-a34c-f94b4a9692e7
   fields:
-    created_at: 2024-06-06 23:24:54.620254+00:00
-    updated_at: 2024-06-06 23:24:54.620263+00:00
+    created_at: 2024-06-07 16:32:56.752722+00:00
+    updated_at: 2024-06-07 16:32:56.752732+00:00
+    name: iPhone 8 Plus
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: 6ce0d451-e7f1-49e2-9b31-e996b686032e
+  fields:
+    created_at: 2024-06-07 16:32:56.761805+00:00
+    updated_at: 2024-06-07 16:32:56.761813+00:00
+    name: iPhone 13 Pro Max
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: 72240a42-ae42-4e6a-a385-784cbcd38365
+  fields:
+    created_at: 2024-06-07 16:32:56.760246+00:00
+    updated_at: 2024-06-07 16:32:56.760254+00:00
+    name: iPhone 13
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: 80157c8b-45ed-4531-b51b-4ea95d73e718
+  fields:
+    created_at: 2024-06-07 16:32:56.754093+00:00
+    updated_at: 2024-06-07 16:32:56.754103+00:00
+    name: iPhone XS
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: 84ff5cf4-8678-45dc-a389-296b007fa26c
+  fields:
+    created_at: 2024-06-07 16:32:56.756533+00:00
+    updated_at: 2024-06-07 16:32:56.756541+00:00
+    name: iPhone 11
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: 9005a4be-55d3-4966-8b3a-fb95ff6bd670
+  fields:
+    created_at: 2024-06-07 16:32:56.751328+00:00
+    updated_at: 2024-06-07 16:32:56.751338+00:00
+    name: iPhone SE (1st Gen)
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: 9102388a-0452-49d9-81bd-642efbb01b09
+  fields:
+    created_at: 2024-06-07 16:32:56.744479+00:00
+    updated_at: 2024-06-07 16:32:56.744551+00:00
+    name: iPhone 6
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: 974e3839-182e-4e4d-aa75-73df2fdfbd1a
+  fields:
+    created_at: 2024-06-07 16:32:56.757066+00:00
+    updated_at: 2024-06-07 16:32:56.757075+00:00
+    name: iPhone 11 Pro
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: 9f34128a-b5ba-43fa-9534-da5864f6d9ab
+  fields:
+    created_at: 2024-06-07 16:32:56.755959+00:00
+    updated_at: 2024-06-07 16:32:56.755969+00:00
+    name: iPhone SE (2020)
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: a19686ab-db16-419d-b429-92b92d6babad
+  fields:
+    created_at: 2024-06-07 16:32:56.760763+00:00
+    updated_at: 2024-06-07 16:32:56.760771+00:00
+    name: iPhone 13 Mini
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: a5cdb902-779f-4ce1-9c59-36d314ed427b
+  fields:
+    created_at: 2024-06-07 16:32:56.753451+00:00
+    updated_at: 2024-06-07 16:32:56.753463+00:00
+    name: iPhone X
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: be3bdbe6-ca9c-417c-96a9-5b5491788c30
+  fields:
+    created_at: 2024-06-07 16:32:56.758114+00:00
+    updated_at: 2024-06-07 16:32:56.758122+00:00
+    name: iPhone 12
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: c20a1693-6a60-46c5-bf53-adf5e6d743d1
+  fields:
+    created_at: 2024-06-07 16:32:56.758643+00:00
+    updated_at: 2024-06-07 16:32:56.758651+00:00
+    name: iPhone 12 Mini
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: c2bdefae-1a6e-4deb-8c45-602d09aadf4a
+  fields:
+    created_at: 2024-06-07 16:32:56.765840+00:00
+    updated_at: 2024-06-07 16:32:56.765848+00:00
+    name: iPhone 15 Pro Max
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: cfaa0900-a793-4ccd-ab51-43b4f910abfb
+  fields:
+    created_at: 2024-06-07 16:32:56.749909+00:00
+    updated_at: 2024-06-07 16:32:56.749924+00:00
+    name: iPhone 7
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: d112f953-be4b-4c60-a8b6-1cf90e4ab4bb
+  fields:
+    created_at: 2024-06-07 16:32:56.764401+00:00
+    updated_at: 2024-06-07 16:32:56.764408+00:00
     name: iPhone 14 Pro
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: fad214d3-df61-4e55-9624-e30b3ac70b3e
+  pk: d793b597-2a07-4a9a-9097-d69aa992a646
   fields:
-    created_at: 2024-06-06 23:24:54.606739+00:00
-    updated_at: 2024-06-06 23:24:54.606847+00:00
-    name: iPad Pro 13 (2024)
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    created_at: 2024-06-07 16:32:56.762322+00:00
+    updated_at: 2024-06-07 16:32:56.762331+00:00
+    name: iPhone SE (2022)
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: fb47bc6a-396f-4df0-8bb6-5823b5315ed0
+  pk: dcec68ce-94a7-4e11-9919-28d55113ad75
   fields:
-    created_at: 2024-06-06 23:24:54.622067+00:00
-    updated_at: 2024-06-06 23:24:54.622076+00:00
-    name: Watch Ultra
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    created_at: 2024-06-07 16:32:56.747965+00:00
+    updated_at: 2024-06-07 16:32:56.747984+00:00
+    name: iPhone 6s
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
 - model: spare_part.model
-  pk: ff6329d1-655c-4194-bf68-e4b5e9e9fe60
+  pk: eeffffa6-aeae-400d-8d33-2d93ec46cdbb
   fields:
-    created_at: 2024-06-06 23:24:54.645268+00:00
-    updated_at: 2024-06-06 23:24:54.645274+00:00
-    name: iPhone 8
-    brand: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+    created_at: 2024-06-07 16:32:56.764896+00:00
+    updated_at: 2024-06-07 16:32:56.764903+00:00
+    name: iPhone 15
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: fa5db2e8-31ed-4c58-94ea-7623dd865bb5
+  fields:
+    created_at: 2024-06-07 16:32:56.765371+00:00
+    updated_at: 2024-06-07 16:32:56.765378+00:00
+    name: iPhone 15 Plus
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: fb671ce7-fb2f-4f4e-8539-a11a3d24f564
+  fields:
+    created_at: 2024-06-07 16:32:56.762850+00:00
+    updated_at: 2024-06-07 16:32:56.762858+00:00
+    name: iPhone 14
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: fb78cf32-a6a7-4114-885d-6bb17cfe1d18
+  fields:
+    created_at: 2024-06-07 16:32:56.748932+00:00
+    updated_at: 2024-06-07 16:32:56.748950+00:00
+    name: iPhone 6s Plus
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+- model: spare_part.model
+  pk: fe212bc7-ab96-46c2-8a68-9e58c8324385
+  fields:
+    created_at: 2024-06-07 16:32:56.763389+00:00
+    updated_at: 2024-06-07 16:32:56.763398+00:00
+    name: iPhone 14 Plus
+    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
