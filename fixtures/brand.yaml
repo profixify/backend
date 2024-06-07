@@ -1,0 +1,216 @@
+- model: spare_part.brand
+  pk: 09c23af8-c237-47c0-bffa-3dec99fc2e39
+  fields:
+    created_at: 2024-06-06 23:19:20.642571+00:00
+    updated_at: 2024-06-06 23:19:20.642580+00:00
+    name: Itel
+- model: spare_part.brand
+  pk: 0d5c5c60-540f-4d56-a355-9c9d64c9240d
+  fields:
+    created_at: 2024-06-06 23:19:20.627397+00:00
+    updated_at: 2024-06-06 23:19:20.627410+00:00
+    name: Honor
+- model: spare_part.brand
+  pk: 0d65acae-1efe-410d-9936-7abb90a7c248
+  fields:
+    created_at: 2024-06-06 23:19:20.632547+00:00
+    updated_at: 2024-06-06 23:19:20.632556+00:00
+    name: Alcatel
+- model: spare_part.brand
+  pk: 1d2549fc-839d-464b-baf7-5e3bdf9fdd2b
+  fields:
+    created_at: 2024-06-06 23:19:20.625939+00:00
+    updated_at: 2024-06-06 23:19:20.625948+00:00
+    name: Xiaomi
+- model: spare_part.brand
+  pk: 20817ad2-320c-4b84-a345-0f92189b85c9
+  fields:
+    created_at: 2024-06-06 23:19:20.631333+00:00
+    updated_at: 2024-06-06 23:19:20.631341+00:00
+    name: Meizu
+- model: spare_part.brand
+  pk: 35f2efa9-f798-4731-b4e4-e58e3b383304
+  fields:
+    created_at: 2024-06-06 23:19:20.639498+00:00
+    updated_at: 2024-06-06 23:19:20.639505+00:00
+    name: Tecno
+- model: spare_part.brand
+  pk: 381919e6-9235-4339-8047-da94d85aab82
+  fields:
+    created_at: 2024-06-06 23:19:20.638977+00:00
+    updated_at: 2024-06-06 23:19:20.638984+00:00
+    name: Ulefone
+- model: spare_part.brand
+  pk: 3fb6b63d-d486-4748-b81d-df3c1b178c9f
+  fields:
+    created_at: 2024-06-06 23:19:20.617797+00:00
+    updated_at: 2024-06-06 23:19:20.617825+00:00
+    name: Apple
+- model: spare_part.brand
+  pk: 40479031-3b57-48ae-bb81-ebb59e893dd4
+  fields:
+    created_at: 2024-06-06 23:19:20.618923+00:00
+    updated_at: 2024-06-06 23:19:20.618941+00:00
+    name: Huawei
+- model: spare_part.brand
+  pk: 41b50537-b13f-45c8-8721-99a7200332b1
+  fields:
+    created_at: 2024-06-06 23:19:20.638445+00:00
+    updated_at: 2024-06-06 23:19:20.638453+00:00
+    name: Infinix
+- model: spare_part.brand
+  pk: 483638ac-b550-4a3f-941a-973537ab2d38
+  fields:
+    created_at: 2024-06-06 23:19:20.622851+00:00
+    updated_at: 2024-06-06 23:19:20.622871+00:00
+    name: HTC
+- model: spare_part.brand
+  pk: 49d614d8-c2bd-4bcd-a249-879b4e48c7be
+  fields:
+    created_at: 2024-06-06 23:19:20.631932+00:00
+    updated_at: 2024-06-06 23:19:20.631940+00:00
+    name: Asus
+- model: spare_part.brand
+  pk: 4e5802f6-50c1-4bc1-9b65-9abe3c99ca51
+  fields:
+    created_at: 2024-06-06 23:19:20.626664+00:00
+    updated_at: 2024-06-06 23:19:20.626675+00:00
+    name: Google
+- model: spare_part.brand
+  pk: 5cb085f2-7dbb-48bc-9370-cbb081291464
+  fields:
+    created_at: 2024-06-06 23:19:20.620025+00:00
+    updated_at: 2024-06-06 23:19:20.620040+00:00
+    name: Nokia
+- model: spare_part.brand
+  pk: 5e6a3e9b-986f-46cb-9cb3-8677bff2b2a0
+  fields:
+    created_at: 2024-06-06 23:19:20.630729+00:00
+    updated_at: 2024-06-06 23:19:20.630736+00:00
+    name: Vivo
+- model: spare_part.brand
+  pk: 5f1147f0-4024-4a5a-8707-64e0b3989a12
+  fields:
+    created_at: 2024-06-06 23:19:20.640368+00:00
+    updated_at: 2024-06-06 23:19:20.640375+00:00
+    name: Dooge
+- model: spare_part.brand
+  pk: 64d10225-df8d-40ec-9e6e-e914578769e9
+  fields:
+    created_at: 2024-06-06 23:19:20.636828+00:00
+    updated_at: 2024-06-06 23:19:20.636834+00:00
+    name: Cat
+- model: spare_part.brand
+  pk: 66f7474b-6774-4383-a1b6-cc0e235d914f
+  fields:
+    created_at: 2024-06-06 23:19:20.629374+00:00
+    updated_at: 2024-06-06 23:19:20.629383+00:00
+    name: One Plus
+- model: spare_part.brand
+  pk: 68230ee3-8731-4405-93fa-36f4e35c187f
+  fields:
+    created_at: 2024-06-06 23:19:20.628111+00:00
+    updated_at: 2024-06-06 23:19:20.628120+00:00
+    name: Oppo
+- model: spare_part.brand
+  pk: 6fc1f29f-7a41-4534-89e4-748fa7fba8b6
+  fields:
+    created_at: 2024-06-06 23:19:20.635586+00:00
+    updated_at: 2024-06-06 23:19:20.635593+00:00
+    name: Umidigi
+- model: spare_part.brand
+  pk: 78c258af-cddb-4bc6-9aec-ab858fae882c
+  fields:
+    created_at: 2024-06-06 23:19:20.621946+00:00
+    updated_at: 2024-06-06 23:19:20.621957+00:00
+    name: LG
+- model: spare_part.brand
+  pk: 7b812412-9665-45c4-8aa8-c470b29ea030
+  fields:
+    created_at: 2024-06-06 23:19:20.637352+00:00
+    updated_at: 2024-06-06 23:19:20.637360+00:00
+    name: Sharp
+- model: spare_part.brand
+  pk: 98302f81-95c6-43ad-b691-de77128410f1
+  fields:
+    created_at: 2024-06-06 23:19:20.641981+00:00
+    updated_at: 2024-06-06 23:19:20.641988+00:00
+    name: Oukitel
+- model: spare_part.brand
+  pk: 9ae5adb4-7953-4a65-a09f-5d67def32ead
+  fields:
+    created_at: 2024-06-06 23:19:20.625192+00:00
+    updated_at: 2024-06-06 23:19:20.625203+00:00
+    name: Lenovo
+- model: spare_part.brand
+  pk: a34b2b69-edac-409e-8bf6-4b883d729f3f
+  fields:
+    created_at: 2024-06-06 23:19:20.637902+00:00
+    updated_at: 2024-06-06 23:19:20.637909+00:00
+    name: Micromax
+- model: spare_part.brand
+  pk: abe4a1ec-5c5f-49fa-9d6d-46c1863f77c1
+  fields:
+    created_at: 2024-06-06 23:19:20.643090+00:00
+    updated_at: 2024-06-06 23:19:20.643097+00:00
+    name: Tcl
+- model: spare_part.brand
+  pk: ade5dffb-9f42-494d-b67b-f168ef08181d
+  fields:
+    created_at: 2024-06-06 23:19:20.614900+00:00
+    updated_at: 2024-06-06 23:19:20.614969+00:00
+    name: Samsung
+- model: spare_part.brand
+  pk: ba89d46f-b5cb-4537-b8ee-6fb494bfb7c7
+  fields:
+    created_at: 2024-06-06 23:19:20.628755+00:00
+    updated_at: 2024-06-06 23:19:20.628764+00:00
+    name: Realme
+- model: spare_part.brand
+  pk: c3f2ad9a-933a-42af-b0b9-af7cb295a5da
+  fields:
+    created_at: 2024-06-06 23:19:20.633859+00:00
+    updated_at: 2024-06-06 23:19:20.633874+00:00
+    name: Zte
+- model: spare_part.brand
+  pk: c4e598d8-97a6-4653-8bd1-8a93dacc7517
+  fields:
+    created_at: 2024-06-06 23:19:20.621185+00:00
+    updated_at: 2024-06-06 23:19:20.621196+00:00
+    name: Sony
+- model: spare_part.brand
+  pk: cf375de7-62d2-489b-8952-14b9b9552d2c
+  fields:
+    created_at: 2024-06-06 23:19:20.640896+00:00
+    updated_at: 2024-06-06 23:19:20.640903+00:00
+    name: Blackview
+- model: spare_part.brand
+  pk: d8b93712-0544-4771-be89-1211d4de7881
+  fields:
+    created_at: 2024-06-06 23:19:20.629992+00:00
+    updated_at: 2024-06-06 23:19:20.630000+00:00
+    name: Nothing
+- model: spare_part.brand
+  pk: e36cf5ae-108b-415b-88c5-56fa13dc2aa2
+  fields:
+    created_at: 2024-06-06 23:19:20.634811+00:00
+    updated_at: 2024-06-06 23:19:20.634818+00:00
+    name: Microsoft
+- model: spare_part.brand
+  pk: e57ddc23-15ec-46ad-b95f-6f0cc3377b52
+  fields:
+    created_at: 2024-06-06 23:19:20.641430+00:00
+    updated_at: 2024-06-06 23:19:20.641436+00:00
+    name: Cubot
+- model: spare_part.brand
+  pk: ec498ac9-c329-49d2-adf8-5aadb2fa55a3
+  fields:
+    created_at: 2024-06-06 23:19:20.636125+00:00
+    updated_at: 2024-06-06 23:19:20.636132+00:00
+    name: Energizer
+- model: spare_part.brand
+  pk: ff089400-e84d-435f-9b2b-ebcd1b2ea9d4
+  fields:
+    created_at: 2024-06-06 23:19:20.623818+00:00
+    updated_at: 2024-06-06 23:19:20.623835+00:00
+    name: Motorola
