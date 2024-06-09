@@ -18,11 +18,7 @@ api_router.register(
     basename="repair-status",
 )
 api_router.register("brands", SparePartBrandViewSet, basename="brand")
-api_router.register(
-    "brands/(?P<brand_uuid>[^/.]+)/models",
-    SparePartModelViewSet,
-    basename="brand-model",
-)
+api_router.register("models", SparePartModelViewSet, basename="model")
 
 urlpatterns = [
     path("", include(api_router.urls)),

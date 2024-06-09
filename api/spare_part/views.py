@@ -1,4 +1,6 @@
 from rest_framework import viewsets
+from rest_framework.decorators import action
+from rest_framework.response import Response
 
 from api.spare_part.serializers import (
     SparePartBrandSerializer,
@@ -21,11 +23,15 @@ class SparePartViewSet(viewsets.ModelViewSet):
 
 class SparePartModelViewSet(viewsets.ModelViewSet):
     serializer_class = SparePartModelSerializer
-
-    def get_queryset(self):
-        return Model.objects.filter(brand__uuid=self.kwargs["brand_uuid"])
+    queryset = Model.objects.all()
 
 
 class SparePartBrandViewSet(viewsets.ModelViewSet):
-    queryset = Brand.objects.all().order_by("name")
+    queryset = Brand.objects.all().order_by("created_at")
     serializer_class = SparePartBrandSerializer
+
+    @action(detail=True, methods=["get"])
+    def models(self, request, pk):
+        models = Model.objects.filter(brand__uuid=pk)
+        serializer = SparePartModelSerializer(models, many=True)
+        return Response(serializer.data)
