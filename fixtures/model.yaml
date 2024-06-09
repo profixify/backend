@@ -1,238 +1,238 @@
 - model: spare_part.model
-  pk: 093d291f-becf-462a-999b-d4e3dea5ddd7
+  pk: 05de874a-1b2a-45e1-b187-7cf1033413ba
   fields:
-    created_at: 2024-06-07 16:32:56.759196+00:00
-    updated_at: 2024-06-07 16:32:56.759205+00:00
-    name: iPhone 12 Pro
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 19f4ce56-ac18-4724-8faa-a20d6657358c
-  fields:
-    created_at: 2024-06-07 16:32:56.766296+00:00
-    updated_at: 2024-06-07 16:32:56.766303+00:00
-    name: iPhone 15 Pro
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 1d31b561-d5ab-4c16-830f-5a1eeafade52
-  fields:
-    created_at: 2024-06-07 16:32:56.761287+00:00
-    updated_at: 2024-06-07 16:32:56.761295+00:00
-    name: iPhone 13 Pro
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 2dbef43d-21aa-4e8f-afa1-a9ba06e44247
-  fields:
-    created_at: 2024-06-07 16:32:56.754692+00:00
-    updated_at: 2024-06-07 16:32:56.754702+00:00
-    name: iPhone XS Max
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 3d6c31b9-8fda-43c4-bd1b-99a9f9e81f5c
-  fields:
-    created_at: 2024-06-07 16:32:56.759718+00:00
-    updated_at: 2024-06-07 16:32:56.759726+00:00
-    name: iPhone 12 Pro Max
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 5358474d-6b18-42f4-ace6-63c21ca13df9
-  fields:
-    created_at: 2024-06-07 16:32:56.757592+00:00
-    updated_at: 2024-06-07 16:32:56.757601+00:00
-    name: iPhone 11 Pro Max
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 5a06d162-1959-4843-9537-822de86cc0f5
-  fields:
-    created_at: 2024-06-07 16:32:56.763922+00:00
-    updated_at: 2024-06-07 16:32:56.763930+00:00
-    name: iPhone 14 Pro Max
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 5ea006ae-c27a-4250-9341-9dcb1bd47dbc
-  fields:
-    created_at: 2024-06-07 16:32:56.752040+00:00
-    updated_at: 2024-06-07 16:32:56.752050+00:00
-    name: 'iPhone 8 '
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 5f12df91-ebe3-4e26-b6da-9e3434ca1fd5
-  fields:
-    created_at: 2024-06-07 16:32:56.750656+00:00
-    updated_at: 2024-06-07 16:32:56.750668+00:00
-    name: iPhone 7 Plus
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 6009d0f8-ee93-4049-bf22-f8b73e0d2ce9
-  fields:
-    created_at: 2024-06-07 16:32:56.755330+00:00
-    updated_at: 2024-06-07 16:32:56.755340+00:00
-    name: iPhone XR
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 6281c1ba-eeee-4a1c-a961-3cd3e540dcab
-  fields:
-    created_at: 2024-06-07 16:32:56.746732+00:00
-    updated_at: 2024-06-07 16:32:56.746757+00:00
+    created_at: 2024-06-07 19:08:08.573068+00:00
+    updated_at: 2024-06-07 19:08:08.573101+00:00
     name: iPhone 6 Plus
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
 - model: spare_part.model
-  pk: 64206c9b-9e53-4e1c-a34c-f94b4a9692e7
+  pk: 062b034d-2111-4b49-b389-5a1b21cb70d6
   fields:
-    created_at: 2024-06-07 16:32:56.752722+00:00
-    updated_at: 2024-06-07 16:32:56.752732+00:00
-    name: iPhone 8 Plus
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 6ce0d451-e7f1-49e2-9b31-e996b686032e
-  fields:
-    created_at: 2024-06-07 16:32:56.761805+00:00
-    updated_at: 2024-06-07 16:32:56.761813+00:00
-    name: iPhone 13 Pro Max
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 72240a42-ae42-4e6a-a385-784cbcd38365
-  fields:
-    created_at: 2024-06-07 16:32:56.760246+00:00
-    updated_at: 2024-06-07 16:32:56.760254+00:00
-    name: iPhone 13
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 80157c8b-45ed-4531-b51b-4ea95d73e718
-  fields:
-    created_at: 2024-06-07 16:32:56.754093+00:00
-    updated_at: 2024-06-07 16:32:56.754103+00:00
-    name: iPhone XS
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 84ff5cf4-8678-45dc-a389-296b007fa26c
-  fields:
-    created_at: 2024-06-07 16:32:56.756533+00:00
-    updated_at: 2024-06-07 16:32:56.756541+00:00
-    name: iPhone 11
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 9005a4be-55d3-4966-8b3a-fb95ff6bd670
-  fields:
-    created_at: 2024-06-07 16:32:56.751328+00:00
-    updated_at: 2024-06-07 16:32:56.751338+00:00
+    created_at: 2024-06-07 19:08:08.578335+00:00
+    updated_at: 2024-06-07 19:08:08.578359+00:00
     name: iPhone SE (1st Gen)
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
 - model: spare_part.model
-  pk: 9102388a-0452-49d9-81bd-642efbb01b09
+  pk: 160752c8-8f41-48e8-88d7-221d5df7debf
   fields:
-    created_at: 2024-06-07 16:32:56.744479+00:00
-    updated_at: 2024-06-07 16:32:56.744551+00:00
-    name: iPhone 6
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+    created_at: 2024-06-07 19:08:08.587621+00:00
+    updated_at: 2024-06-07 19:08:08.587630+00:00
+    name: iPhone 12 Pro
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
 - model: spare_part.model
-  pk: 974e3839-182e-4e4d-aa75-73df2fdfbd1a
+  pk: 1a75a3ff-f7f6-47d3-afec-8b3b8ff58af4
   fields:
-    created_at: 2024-06-07 16:32:56.757066+00:00
-    updated_at: 2024-06-07 16:32:56.757075+00:00
-    name: iPhone 11 Pro
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: 9f34128a-b5ba-43fa-9534-da5864f6d9ab
-  fields:
-    created_at: 2024-06-07 16:32:56.755959+00:00
-    updated_at: 2024-06-07 16:32:56.755969+00:00
-    name: iPhone SE (2020)
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: a19686ab-db16-419d-b429-92b92d6babad
-  fields:
-    created_at: 2024-06-07 16:32:56.760763+00:00
-    updated_at: 2024-06-07 16:32:56.760771+00:00
-    name: iPhone 13 Mini
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: a5cdb902-779f-4ce1-9c59-36d314ed427b
-  fields:
-    created_at: 2024-06-07 16:32:56.753451+00:00
-    updated_at: 2024-06-07 16:32:56.753463+00:00
-    name: iPhone X
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: be3bdbe6-ca9c-417c-96a9-5b5491788c30
-  fields:
-    created_at: 2024-06-07 16:32:56.758114+00:00
-    updated_at: 2024-06-07 16:32:56.758122+00:00
-    name: iPhone 12
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: c20a1693-6a60-46c5-bf53-adf5e6d743d1
-  fields:
-    created_at: 2024-06-07 16:32:56.758643+00:00
-    updated_at: 2024-06-07 16:32:56.758651+00:00
-    name: iPhone 12 Mini
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: c2bdefae-1a6e-4deb-8c45-602d09aadf4a
-  fields:
-    created_at: 2024-06-07 16:32:56.765840+00:00
-    updated_at: 2024-06-07 16:32:56.765848+00:00
-    name: iPhone 15 Pro Max
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: cfaa0900-a793-4ccd-ab51-43b4f910abfb
-  fields:
-    created_at: 2024-06-07 16:32:56.749909+00:00
-    updated_at: 2024-06-07 16:32:56.749924+00:00
-    name: iPhone 7
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: d112f953-be4b-4c60-a8b6-1cf90e4ab4bb
-  fields:
-    created_at: 2024-06-07 16:32:56.764401+00:00
-    updated_at: 2024-06-07 16:32:56.764408+00:00
-    name: iPhone 14 Pro
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: d793b597-2a07-4a9a-9097-d69aa992a646
-  fields:
-    created_at: 2024-06-07 16:32:56.762322+00:00
-    updated_at: 2024-06-07 16:32:56.762331+00:00
-    name: iPhone SE (2022)
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
-- model: spare_part.model
-  pk: dcec68ce-94a7-4e11-9919-28d55113ad75
-  fields:
-    created_at: 2024-06-07 16:32:56.747965+00:00
-    updated_at: 2024-06-07 16:32:56.747984+00:00
+    created_at: 2024-06-07 19:08:08.574494+00:00
+    updated_at: 2024-06-07 19:08:08.574529+00:00
     name: iPhone 6s
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
 - model: spare_part.model
-  pk: eeffffa6-aeae-400d-8d33-2d93ec46cdbb
+  pk: 27cb83c0-c075-481c-a64e-25481a11619d
   fields:
-    created_at: 2024-06-07 16:32:56.764896+00:00
-    updated_at: 2024-06-07 16:32:56.764903+00:00
+    created_at: 2024-06-07 19:08:08.586299+00:00
+    updated_at: 2024-06-07 19:08:08.586309+00:00
+    name: iPhone 12
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 327d3603-1854-4d5f-8387-f00b82ab1728
+  fields:
+    created_at: 2024-06-07 19:08:08.592508+00:00
+    updated_at: 2024-06-07 19:08:08.592516+00:00
+    name: iPhone 14 Pro Max
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 3483e0d9-cedf-4a13-94cf-e0c654d7b6e0
+  fields:
+    created_at: 2024-06-07 19:08:08.581297+00:00
+    updated_at: 2024-06-07 19:08:08.581306+00:00
+    name: iPhone XS
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 4e20a00a-82ab-46dd-935e-ce2f4a863bf9
+  fields:
+    created_at: 2024-06-07 19:08:08.585659+00:00
+    updated_at: 2024-06-07 19:08:08.585668+00:00
+    name: iPhone 11 Pro Max
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 4f3b757a-9497-4b2f-8db8-5e05e4bbd818
+  fields:
+    created_at: 2024-06-07 19:08:08.586982+00:00
+    updated_at: 2024-06-07 19:08:08.586993+00:00
+    name: iPhone 12 Mini
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 5697a10c-3c24-407c-83bb-874c2e9d3b83
+  fields:
+    created_at: 2024-06-07 19:08:08.593631+00:00
+    updated_at: 2024-06-07 19:08:08.593640+00:00
     name: iPhone 15
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
 - model: spare_part.model
-  pk: fa5db2e8-31ed-4c58-94ea-7623dd865bb5
+  pk: 5db1de0e-bbed-4758-bb91-62c3fc479fb8
   fields:
-    created_at: 2024-06-07 16:32:56.765371+00:00
-    updated_at: 2024-06-07 16:32:56.765378+00:00
-    name: iPhone 15 Plus
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+    created_at: 2024-06-07 19:08:08.580667+00:00
+    updated_at: 2024-06-07 19:08:08.580678+00:00
+    name: iPhone X
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
 - model: spare_part.model
-  pk: fb671ce7-fb2f-4f4e-8539-a11a3d24f564
+  pk: 61ca9c09-1cca-438a-bb00-3f2d569acd7e
   fields:
-    created_at: 2024-06-07 16:32:56.762850+00:00
-    updated_at: 2024-06-07 16:32:56.762858+00:00
-    name: iPhone 14
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+    created_at: 2024-06-07 19:08:08.585039+00:00
+    updated_at: 2024-06-07 19:08:08.585049+00:00
+    name: iPhone 11 Pro
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
 - model: spare_part.model
-  pk: fb78cf32-a6a7-4114-885d-6bb17cfe1d18
+  pk: 6710a235-3815-476a-8a38-68a065ad95e6
   fields:
-    created_at: 2024-06-07 16:32:56.748932+00:00
-    updated_at: 2024-06-07 16:32:56.748950+00:00
-    name: iPhone 6s Plus
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+    created_at: 2024-06-07 19:08:08.583693+00:00
+    updated_at: 2024-06-07 19:08:08.583704+00:00
+    name: iPhone SE (2020)
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
 - model: spare_part.model
-  pk: fe212bc7-ab96-46c2-8a68-9e58c8324385
+  pk: 71f7cfc9-9976-4885-b088-47f775e98c34
   fields:
-    created_at: 2024-06-07 16:32:56.763389+00:00
-    updated_at: 2024-06-07 16:32:56.763398+00:00
+    created_at: 2024-06-07 19:08:08.579282+00:00
+    updated_at: 2024-06-07 19:08:08.579297+00:00
+    name: iPhone 8
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 7241ae35-52f0-42d5-a1d8-a8e6d3f5abe4
+  fields:
+    created_at: 2024-06-07 19:08:08.582145+00:00
+    updated_at: 2024-06-07 19:08:08.582165+00:00
+    name: iPhone XS Max
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 72fa05db-1444-4730-b7eb-5a09043b3174
+  fields:
+    created_at: 2024-06-07 19:08:08.588139+00:00
+    updated_at: 2024-06-07 19:08:08.588146+00:00
+    name: iPhone 12 Pro Max
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 77e0ddc1-b881-4e11-bb43-33554ac0715d
+  fields:
+    created_at: 2024-06-07 19:08:08.591980+00:00
+    updated_at: 2024-06-07 19:08:08.591988+00:00
     name: iPhone 14 Plus
-    brand: e57cb7e0-c963-468c-987a-41f16e09b07e
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 825febfb-ba84-4960-89a4-ad71b27f713b
+  fields:
+    created_at: 2024-06-07 19:08:08.588683+00:00
+    updated_at: 2024-06-07 19:08:08.588691+00:00
+    name: iPhone 13
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 8e9a495e-5b86-4493-88b5-0b1db3762767
+  fields:
+    created_at: 2024-06-07 19:08:08.590347+00:00
+    updated_at: 2024-06-07 19:08:08.590355+00:00
+    name: iPhone 13 Pro Max
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 95cf3a8a-4095-45c0-a074-0866e9f55027
+  fields:
+    created_at: 2024-06-07 19:08:08.593054+00:00
+    updated_at: 2024-06-07 19:08:08.593062+00:00
+    name: iPhone 14 Pro
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 97068121-200c-4402-ba6b-9b29ff723de3
+  fields:
+    created_at: 2024-06-07 19:08:08.590894+00:00
+    updated_at: 2024-06-07 19:08:08.590902+00:00
+    name: iPhone SE (2022)
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: 972c663e-485e-4150-8c01-a59475e454db
+  fields:
+    created_at: 2024-06-07 19:08:08.577356+00:00
+    updated_at: 2024-06-07 19:08:08.577370+00:00
+    name: iPhone 7 Plus
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: a79dc31c-936c-4a3e-ae33-cfeae6086468
+  fields:
+    created_at: 2024-06-07 19:08:08.594678+00:00
+    updated_at: 2024-06-07 19:08:08.594686+00:00
+    name: iPhone 15 Pro Max
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: b61503b6-589f-4be4-8a5d-4e68ca91db54
+  fields:
+    created_at: 2024-06-07 19:08:08.589803+00:00
+    updated_at: 2024-06-07 19:08:08.589811+00:00
+    name: iPhone 13 Pro
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: bc991adc-d096-4686-a42b-27fc3048493c
+  fields:
+    created_at: 2024-06-07 19:08:08.591440+00:00
+    updated_at: 2024-06-07 19:08:08.591448+00:00
+    name: iPhone 14
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: bfc49b41-d2c9-45c4-97b8-fbddcc09a5a6
+  fields:
+    created_at: 2024-06-07 19:08:08.579991+00:00
+    updated_at: 2024-06-07 19:08:08.580001+00:00
+    name: iPhone 8 Plus
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: d550f80d-be28-465a-ad7f-0b2c8cb7cdf6
+  fields:
+    created_at: 2024-06-07 19:08:08.570426+00:00
+    updated_at: 2024-06-07 19:08:08.570535+00:00
+    name: iPhone 6
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: df9bb8d4-a744-4a52-a070-63148b8fb7b8
+  fields:
+    created_at: 2024-06-07 19:08:08.582970+00:00
+    updated_at: 2024-06-07 19:08:08.582983+00:00
+    name: iPhone XR
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: e536e654-cd04-4565-bb7d-ea9739a6ebf4
+  fields:
+    created_at: 2024-06-07 19:08:08.594163+00:00
+    updated_at: 2024-06-07 19:08:08.594170+00:00
+    name: iPhone 15 Plus
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: e7d6aac4-9192-45bb-9f14-b48657bed271
+  fields:
+    created_at: 2024-06-07 19:08:08.575552+00:00
+    updated_at: 2024-06-07 19:08:08.575569+00:00
+    name: iPhone 6s Plus
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: ea156a0b-8f8b-4526-9db1-ab8f11834a5d
+  fields:
+    created_at: 2024-06-07 19:08:08.595194+00:00
+    updated_at: 2024-06-07 19:08:08.595201+00:00
+    name: iPhone 15 Pro
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: ec1cd105-0233-4973-ac16-79d0de3700f9
+  fields:
+    created_at: 2024-06-07 19:08:08.576497+00:00
+    updated_at: 2024-06-07 19:08:08.576513+00:00
+    name: iPhone 7
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: f10a130b-dde9-4288-a4bc-2bf958387fde
+  fields:
+    created_at: 2024-06-07 19:08:08.584418+00:00
+    updated_at: 2024-06-07 19:08:08.584428+00:00
+    name: iPhone 11
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
+- model: spare_part.model
+  pk: ffe7a47c-7133-432e-9658-80669116c51a
+  fields:
+    created_at: 2024-06-07 19:08:08.589229+00:00
+    updated_at: 2024-06-07 19:08:08.589238+00:00
+    name: iPhone 13 Mini
+    brand: de654f60-9d1a-4398-a6cb-ce1a860e2569
