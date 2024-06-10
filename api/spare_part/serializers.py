@@ -3,16 +3,24 @@ from rest_framework import serializers
 from spare_part.models import Brand, Model, SparePart
 
 
-class SparePartModelSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Model
-        fields = ("uuid", "name")
-
-
 class SparePartBrandSerializer(serializers.ModelSerializer):
     class Meta:
         model = Brand
         fields = ("uuid", "name")
+
+
+class SparePartModelSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Model
+        fields = ("uuid", "name", "brand")
+
+
+class SparePartModelReadSerializer(serializers.ModelSerializer):
+    brand = SparePartBrandSerializer(read_only=True)
+
+    class Meta:
+        model = Model
+        fields = ("uuid", "name", "brand")
 
 
 class SparePartSerializer(serializers.ModelSerializer):
