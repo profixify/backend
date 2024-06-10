@@ -4,6 +4,7 @@ from rest_framework.response import Response
 
 from api.spare_part.serializers import (
     SparePartBrandSerializer,
+    SparePartModelReadSerializer,
     SparePartModelSerializer,
     SparePartReadSerializer,
     SparePartSerializer,
@@ -24,6 +25,12 @@ class SparePartViewSet(viewsets.ModelViewSet):
 class SparePartModelViewSet(viewsets.ModelViewSet):
     serializer_class = SparePartModelSerializer
     queryset = Model.objects.all()
+
+    def get_serializer_class(self):
+        if self.action in ["create", "update", "partial_update"]:
+            return SparePartModelSerializer
+        else:
+            return SparePartModelReadSerializer
 
 
 class SparePartBrandViewSet(viewsets.ModelViewSet):
